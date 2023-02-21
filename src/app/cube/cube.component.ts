@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
 import * as Three from "three";
+import * as Aframe from "aframe";
 
 @Component({
   selector: 'app-cube',
