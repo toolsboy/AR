@@ -2,8 +2,10 @@
   <a-marker preset="hiro">
           <a-box position='0 0.5 0' material='color: black;'></a-box>
   </a-marker>
-  <a-entity camera></a-entity>
-  <a-box id="canvas" style="height: 100%; width: 100%;" #canvas>
+  <a-entity camera="active: true" look-controls wasd-controls position="0 1.6 0" data-aframe-default-camera">
+    <canvas #canvas id="canvas" style="height: 100%; width: 100%;" ></canvas>  
+  </a-entity>
+  
 </a-scene>
 
 <router-outlet></router-outlet>
